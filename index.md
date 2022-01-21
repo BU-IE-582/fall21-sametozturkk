@@ -25,3 +25,9 @@ This is Samet Öztürk's journal for IE 582 course at Bogazici University.
 * [Description](hw4/IE582_Fall21_Homework4.pdf)
 * [Report](hw4/hw4.html)
 * [Source](hw4/hw4.ipynb)
+
+## Final
+* [Description](Final/IE582_Fall21_Final_Exam.pdf)
+* [Report](Final/final_report.pdf)
+* [Code Report](Final/final.html)
+* [Source](Final/final.ipynb)
