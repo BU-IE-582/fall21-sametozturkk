@@ -16368,49 +16368,6 @@ Pre-processing:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-r"><pre><span></span><span class="n">n_repeats</span><span class="o">=</span><span class="m">1</span>
-<span class="n">n_folds</span><span class="o">=</span><span class="m">2</span>
-<span class="n">fitControl</span><span class="o">=</span><span class="nf">trainControl</span><span class="p">(</span><span class="n">method</span> <span class="o">=</span> <span class="s">&quot;repeatedcv&quot;</span><span class="p">,</span>
-                        <span class="n">number</span> <span class="o">=</span> <span class="n">n_folds</span><span class="p">,</span>
-                        <span class="n">repeats</span> <span class="o">=</span> <span class="n">n_repeats</span><span class="p">,</span>
-                        <span class="n">classProbs</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">,</span> 
-                        <span class="n">summaryFunction</span><span class="o">=</span><span class="n">twoClassSummary</span><span class="p">,</span>
-                        <span class="n">sampling</span><span class="o">=</span><span class="s">&quot;up&quot;</span>
-                       <span class="p">)</span>
-<span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
-<span class="n">ada_fit</span><span class="o">=</span><span class="nf">train</span><span class="p">(</span><span class="n">target</span> <span class="o">~</span> <span class="n">.</span><span class="p">,</span> 
-              <span class="n">data</span> <span class="o">=</span> <span class="n">train_pca</span><span class="p">[,</span> <span class="o">-</span><span class="nf">c</span><span class="p">(</span><span class="s">&quot;loan_amount&quot;</span><span class="p">,</span> <span class="s">&quot;fold&quot;</span><span class="p">)],</span>
-              <span class="n">method</span> <span class="o">=</span> <span class="s">&quot;AdaBoost.M1&quot;</span><span class="p">,</span> 
-              <span class="n">trControl</span> <span class="o">=</span> <span class="n">fitControl</span><span class="p">,</span> 
-              <span class="n">metric</span> <span class="o">=</span> <span class="s">&quot;ROC&quot;</span><span class="p">,</span>
-              <span class="n">tuneLength</span> <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-r"><pre><span></span><span class="n">ada_fit</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
