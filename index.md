@@ -31,3 +31,13 @@ This is Samet Öztürk's journal for IE 582 course at Bogazici University.
 * [Report](Final/final_report.pdf)
 * [Code Report](Final/final.html)
 * [Source](Final/final.ipynb)
+
+## Final
+* [Description](Project/IE582_Fall21_Project.pdf)
+* [Report](Project/report.pdf)
+* [Descriptive Analysis(html)](Project/DescriptiveAnalysis.html)
+* [Descriptive Analysis(ipynb)](Project/DescriptiveAnalysis.ipynb)
+* [Feature Engieering(html)](Project/FeatureEngieering.html)
+* [Feature Engieering(ipynb)](Project/FeatureEngieering.ipynb)
+* [Model Selection(html)](Project/ModelSelection.html)
+* [Model Selection(ipynb)](Project/ModelSelection.ipynb)
