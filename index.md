@@ -32,7 +32,7 @@ This is Samet Öztürk's journal for IE 582 course at Bogazici University.
 * [Code Report](Final/final.html)
 * [Source](Final/final.ipynb)
 
-## Final
+## Project
 * [Description](Project/IE582_Fall21_Project.pdf)
 * [Report](Project/report.pdf)
 * [Descriptive Analysis(html)](Project/DescriptiveAnalysis.html)
